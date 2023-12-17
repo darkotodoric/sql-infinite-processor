@@ -1,8 +1,8 @@
 # SQL Infinite Processor
-This is the right approach to processing billions of rows in a MySQL database. This repository demonstrates the optimal method for handling large-scale data queries in SQL, bypassing common inefficiencies.
+This is the right approach to processing billions of rows in a SQL database. This repository demonstrates the optimal method for handling large-scale data queries in SQL, bypassing common inefficiencies.
 
 ## Problem with traditional SQL queries
-Typical SQL queries using `LIMIT` with an offset are not efficient for large datasets. This is because MySQL loads all the data first, and then only returns the specified number of rows as defined in the `LIMIT` clause. This method becomes increasingly inefficient as the dataset grows larger.
+Typical SQL queries using `LIMIT` with an offset are not efficient for large datasets. This is because SQL loads all the data first, and then only returns the specified number of rows as defined in the `LIMIT` clause. This method becomes increasingly inefficient as the dataset grows larger.
 
 ## Right solution
 This approach provides a better alternative, applicable across different programming languages. While this example utilizes PHP, the fundamental concept is deeply rooted in SQL principles.
